@@ -1,0 +1,102 @@
+v 20130925 2
+B 300 300 1200 1900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1400 2250 5 10 1 1 0 6 1
+refdes=U?
+T 900 1500 5 10 1 1 0 4 1
+device=LT1763
+T 300 7000 5 10 0 0 0 0 1
+footprint=LTC_S8
+T 300 7200 5 10 0 0 0 0 1
+author=Michael Petersen
+T 400 7800 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 8000 5 10 0 0 0 0 1
+use-license=unlimited
+P 1800 700 1500 700 1 0 0
+{
+T 1600 650 5 8 0 1 0 2 1
+pinseq=4
+T 1450 700 5 8 0 1 0 8 1
+pintype=io
+T 1600 750 5 8 1 1 0 0 1
+pinnumber=4
+T 1450 700 9 8 1 1 0 7 1
+pinlabel=BYP
+}
+P 500 0 500 300 1 0 0
+{
+T 550 200 5 8 1 1 0 2 1
+pinnumber=3
+T 550 100 5 8 0 1 0 2 1
+pinseq=3
+T 500 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 500 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 0 700 300 700 1 0 0
+{
+T 200 650 5 8 0 1 0 8 1
+pinseq=5
+T 350 700 5 8 0 1 0 2 1
+pintype=in
+T 200 750 5 8 1 1 0 6 1
+pinnumber=5
+T 350 700 9 8 1 1 0 1 1
+pinlabel=\_SHDN\_
+}
+P 1800 2000 1500 2000 1 0 0
+{
+T 1600 1950 5 8 0 1 0 2 1
+pinseq=1
+T 1450 2000 5 8 0 1 0 8 1
+pintype=io
+T 1600 2050 5 8 1 1 0 0 1
+pinnumber=1
+T 1450 2000 9 8 1 1 0 7 1
+pinlabel=OUT
+}
+P 0 2000 300 2000 1 0 0
+{
+T 200 1950 5 8 0 1 0 8 1
+pinseq=8
+T 350 2000 5 8 0 1 0 2 1
+pintype=in
+T 200 2050 5 8 1 1 0 6 1
+pinnumber=8
+T 350 2000 9 8 1 1 0 1 1
+pinlabel=IN
+}
+P 1800 1100 1500 1100 1 0 0
+{
+T 1600 1050 5 8 0 1 0 2 1
+pinseq=2
+T 1450 1100 5 8 0 1 0 8 1
+pintype=io
+T 1600 1150 5 8 1 1 0 0 1
+pinnumber=2
+T 1450 1100 9 8 1 1 0 7 1
+pinlabel=ADJ
+}
+P 900 0 900 300 1 0 0
+{
+T 950 200 5 8 1 1 0 2 1
+pinnumber=6
+T 950 100 5 8 0 1 0 2 1
+pinseq=6
+T 900 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 900 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1300 0 1300 300 1 0 0
+{
+T 1350 200 5 8 1 1 0 2 1
+pinnumber=7
+T 1350 100 5 8 0 1 0 2 1
+pinseq=7
+T 1300 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 1300 500 5 8 0 1 0 3 1
+pintype=pwr
+}

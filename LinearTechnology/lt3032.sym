@@ -1,0 +1,157 @@
+v 20130925 2
+B 300 300 1200 4100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1400 4450 5 10 1 1 0 6 1
+refdes=U?
+T 900 3750 5 10 1 1 0 4 1
+device=LT3032
+T 300 7000 5 10 0 0 0 0 1
+footprint=LTC_DE14MA
+T 300 7200 5 10 0 0 0 0 1
+author=Michael Petersen
+T 400 7800 5 10 0 0 0 0 1
+dist-license=GPL
+T 400 8000 5 10 0 0 0 0 1
+use-license=unlimited
+P 1800 600 1500 600 1 0 0
+{
+T 1600 550 5 8 0 1 0 2 1
+pinseq=7
+T 1450 600 5 8 0 1 0 8 1
+pintype=io
+T 1600 650 5 8 1 1 0 0 1
+pinnumber=7
+T 1450 600 9 8 1 1 0 7 1
+pinlabel=OUTN
+}
+P 900 0 900 300 1 0 0
+{
+T 950 200 5 8 1 1 0 2 1
+pinnumber=4
+T 950 100 5 8 0 1 0 2 1
+pinseq=4
+T 900 350 9 8 1 1 0 3 1
+pinlabel=GND
+T 900 500 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1800 1500 1500 1500 1 0 0
+{
+T 1600 1450 5 8 0 1 0 2 1
+pinseq=8
+T 1450 1500 5 8 0 1 0 8 1
+pintype=io
+T 1600 1550 5 8 1 1 0 0 1
+pinnumber=8
+T 1450 1500 9 8 1 1 0 7 1
+pinlabel=ADJN
+}
+P 1800 2400 1500 2400 1 0 0
+{
+T 1600 2350 5 8 0 1 0 2 1
+pinseq=5
+T 1450 2400 5 8 0 1 0 8 1
+pintype=io
+T 1600 2450 5 8 1 1 0 0 1
+pinnumber=5
+T 1450 2400 9 8 1 1 0 7 1
+pinlabel=GND
+}
+P 1800 3300 1500 3300 1 0 0
+{
+T 1600 3250 5 8 0 1 0 2 1
+pinseq=2
+T 1450 3300 5 8 0 1 0 8 1
+pintype=io
+T 1600 3350 5 8 1 1 0 0 1
+pinnumber=2
+T 1450 3300 9 8 1 1 0 7 1
+pinlabel=ADJP
+}
+P 1800 4200 1500 4200 1 0 0
+{
+T 1600 4150 5 8 0 1 0 2 1
+pinseq=1
+T 1450 4200 5 8 0 1 0 8 1
+pintype=io
+T 1600 4250 5 8 1 1 0 0 1
+pinnumber=1
+T 1450 4200 9 8 1 1 0 7 1
+pinlabel=OUTP
+}
+P 1800 2800 1500 2800 1 0 0
+{
+T 1600 2750 5 8 0 1 0 2 1
+pinseq=3
+T 1450 2800 5 8 0 1 0 8 1
+pintype=io
+T 1600 2850 5 8 1 1 0 0 1
+pinnumber=3
+T 1450 2800 9 8 1 1 0 7 1
+pinlabel=BYPP
+}
+P 0 2200 300 2200 1 0 0
+{
+T 200 2150 5 8 0 1 0 8 1
+pinseq=10
+T 350 2200 5 8 0 1 0 2 1
+pintype=in
+T 200 2250 5 8 1 1 0 6 1
+pinnumber=10
+T 350 2200 9 8 1 1 0 1 1
+pinlabel=\_SHDNN\_
+}
+P 0 2600 300 2600 1 0 0
+{
+T 200 2550 5 8 0 1 0 8 1
+pinseq=12
+T 350 2600 5 8 0 1 0 2 1
+pintype=in
+T 200 2650 5 8 1 1 0 6 1
+pinnumber=12
+T 350 2600 9 8 1 1 0 1 1
+pinlabel=\_SHDNP\_
+}
+P 0 4200 300 4200 1 0 0
+{
+T 200 4150 5 8 0 1 0 8 1
+pinseq=14
+T 350 4200 5 8 0 1 0 2 1
+pintype=in
+T 200 4250 5 8 1 1 0 6 1
+pinnumber=14
+T 350 4200 9 8 1 1 0 1 1
+pinlabel=INP
+}
+P 1800 2000 1500 2000 1 0 0
+{
+T 1600 1950 5 8 0 1 0 2 1
+pinseq=11
+T 1450 2000 5 8 0 1 0 8 1
+pintype=io
+T 1600 2050 5 8 1 1 0 0 1
+pinnumber=11
+T 1450 2000 9 8 1 1 0 7 1
+pinlabel=BYPN
+}
+P 0 600 300 600 1 0 0
+{
+T 200 550 5 8 0 1 0 8 1
+pinseq=9
+T 350 600 5 8 0 1 0 2 1
+pintype=in
+T 200 650 5 8 1 1 0 6 1
+pinnumber=9
+T 350 600 9 8 1 1 0 1 1
+pinlabel=INN
+}
+P 0 900 300 900 1 0 0
+{
+T 200 850 5 8 0 1 0 8 1
+pinseq=6
+T 350 900 5 8 0 1 0 2 1
+pintype=in
+T 200 950 5 8 1 1 0 6 1
+pinnumber=6
+T 350 900 9 8 1 1 0 1 1
+pinlabel=INN
+}
