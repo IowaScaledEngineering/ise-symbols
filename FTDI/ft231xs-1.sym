@@ -225,15 +225,15 @@ refdes=U?
 T 300 4800 9 10 1 0 0 0 1
 FT231XS
 T 300 5100 5 10 0 0 0 0 1
-device=FT232RL
+device=FT231XS
 T 300 5300 5 10 0 0 0 0 1
-footprint=SSOP28
+footprint=SSOP20
 T 300 5500 5 10 0 0 0 0 1
-author=andrewmATthehacktoryDOTcom
+author=maverick@drgw.net
 T 300 5700 5 10 0 0 0 0 1
-documentation=http://www.ftdichip.com/Documents/DataSheets/DS_FT232R.pdf
+documentation=http://www.ftdichip.com/Products/ICs/FT231X.html
 T 300 5900 5 10 0 0 0 0 1
-description=FTDA FT232RL USB to UART bridge
+description=FTDI FT231XS USB to UART bridge
 T 300 6100 5 10 0 0 0 0 1
 dist-license=GPL
 T 300 6300 5 10 0 0 0 0 1
